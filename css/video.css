@@ -1,0 +1,55 @@
+ 
+.disabled{
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}
+
+.video-icon{
+    display: flex;
+    justify-content: space-between;
+    margin:1rem;
+}
+ 
+.video-icon span{
+    cursor: pointer;
+}
+
+.video-icon .like{
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+#likesNumber{
+    color: green;
+    margin-right: 1rem;
+}
+
+#unlikesNumber {
+    color: red;
+}
+
+
+/* video List */
+.oi::before{
+    padding-right:10px;
+}
+.videoList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.videoList span{
+    padding: 1rem 0;
+}
+
+@media screen and (orientation: portrait) {
+    .videoList{
+        margin:10px 0;
+    }
+}
+
+@media screen and (orientation: landscape) {
+
+}
